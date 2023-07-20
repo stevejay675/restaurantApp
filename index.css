@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('./InShot_20230719_133921232.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: sans-serif;
+    background-blend-mode: darken;
+    
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container h1{
+    color: white;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    padding: 18px;
+    display: inline;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    font-weight:bold;
+    padding: 4px;
+    transition: 0.8s;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px #FC4F00 inset, 0 3px 50px #FC4F00 inset, 0 3px 50px #FC4F00 inset, 0 3px 50px #FC4F00 inset;
+}
+
+.content h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 30%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.content h2{
+    font-size: 55px;
+    margin-left: 20%;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-family:serif;
+}
+
+.content p{
+    margin-left: 45%;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 37%;
+}
+
+.contact{
+    margin-left: 36%; 
+    margin-top: 40px;
+    font-size: large;
+}
+
+.name{
+    display: flex;
+}
+
+.button1{
+margin: 30px 180px;
+ background-color: #000000;
+  color: white; 
+  height: 40px;
+   width: 76px; 
+   border-radius: 10px; 
+   margin-left: 23%;
+   transition: 0.5s;
+   border: 0px;
+   cursor: pointer;
+   
+}
+
+.button1:hover{
+   background-color: #B71275;
+}
+
+.button2{
+    margin-left: 47%;
+    height: 30px;
+    width: 75px;
+    margin-top: 15px; 
+    border-radius: 10px;
+     border: 0; 
+     background-color: #000000; 
+     color: white;
+     transition: 0.4s;
+}
+
+.button2:hover{
+    background-color: #FC4F00;
+}

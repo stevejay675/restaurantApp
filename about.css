@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: blueviolet;
+    text-align: center;
+    height: 140px;
+}
+
+.container h1{
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+}

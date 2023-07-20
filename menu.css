@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+
+body{
+    background: #FC4F00;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: sans-serif;
+    background-blend-mode: darken;
+
+}
