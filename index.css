@@ -10,6 +10,10 @@ body{
     background-position: center center;
     font-family: sans-serif;
     background-blend-mode: darken;
+    font-size: 16px;
+    @media (max-width: 768px) {
+        /* Styles for mobile devices */
+      }
     
     
 }
